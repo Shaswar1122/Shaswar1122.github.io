@@ -1,0 +1,131 @@
+html{
+    margin: 0px;
+}
+
+
+body{
+    font-family: Helvetica, Arial, sans-serif;
+    margin: 0px;
+    font-size: 1.5vh;
+}
+
+
+
+body > main  article{
+    width: 80%;
+    margin: auto;
+}
+
+#main-content{
+    display: flex;
+    justify-content: space-around;
+}
+
+#main-content > div{
+    width: 70%;
+}
+
+#main-header{
+    background-color: orange;
+    display: flex;
+    height: 8vh;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#nav-ul{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#nav-ul >li{
+    padding: 8px;
+    margin: 16px;
+}
+
+
+
+body > header > nav > ul{
+    list-style: none;
+    text-decoration: none;
+}
+
+
+.navbutton{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 6px 15px;
+    border: 1px solid white;
+    border-radius: 20px; 
+}
+
+.navbutton:hover, :active{
+    background-color: white;
+    color: black;
+}
+
+#logo{
+    color: white;
+    margin: 0px;
+    padding: 8px;
+    font-family: "Fredoka One", sans-serif;
+    text-shadow: 1px 1px 0px black, -1px 1px 0px black, 1px -1px 0px black, -1px -1px 0px black;
+
+}
+
+h1{
+    margin: 0px;
+    padding: 8px;
+}
+
+h2{
+    text-align: center;
+}
+
+cite > a {
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+}
+
+ul{
+    margin: 0px;
+}
+
+body>footer{
+    background-color: orange;
+    display: flex;
+}
+
+#footer-ul{
+    display: flex;
+    list-style: none;
+}
+
+#footer-ul > div > li{
+    margin-left: 12px;
+}
+
+#footer-ul>div>li>a{
+    color: white;
+    text-decoration: none;
+}
+
+img{
+    border-radius: 100%;
+}
+/* Center the form */
+form {
+    width: 50%; /* Adjust the width of the form as needed */
+    margin: 0 auto; /* Centers the form horizontally */
+    padding: 20px; /* Optional: Adds padding around the form */
+    background-color: #f5f5f5; /* Optional: Adds a background color for better visibility */
+    border-radius: 8px; /* Optional: Adds rounded corners */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow for effect */
+}
+
+img{
+    height: 250px;
+    width: 250px;
+}
